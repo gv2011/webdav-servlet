@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.gv2011</groupId>
+		<artifactId>parent-gv</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>webdav</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<url>https://github.com/gv2011/webdav-servlet</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://opensource.org/licenses/Apache-2.0</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>git@github.com:gv2011/webdav-servlet.git</connection>
+		<developerConnection>git@github.com:gv2011/webdav-servlet.git</developerConnection>
+		<url>https://github.com/gv2011/webdav-servlet</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<modules>
+		<module>core</module>
+	</modules>
+
+</project>
