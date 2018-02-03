@@ -9,6 +9,10 @@
   </parent>
 
   <artifactId>webdav-core</artifactId>
+  
+  <properties>
+    <util.version>0.2.2-SNAPSHOT</util.version>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -18,7 +22,7 @@
     <dependency>
       <groupId>com.github.gv2011</groupId>
       <artifactId>util</artifactId>
-      <version>0.0.5-SNAPSHOT</version>
+      <version>${util.version}</version>
     </dependency>
 
     <dependency>
